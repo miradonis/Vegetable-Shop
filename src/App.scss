@@ -3,3 +3,50 @@
     padding: 0;
     box-sizing: border-box;
 }
+
+// fonts
+@font-face {
+    font-family: 'Oswald-Bold';
+    src: url('./assets/fonts/static/Oswald-Bold.ttf');
+}
+
+@font-face {
+    font-family: 'Oswald-Regular';
+    src: url('./assets/fonts/static/Oswald-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Oswald-Medium';
+    src: url('./assets/fonts/static/Oswald-Medium.ttf');
+}
+
+$OSB700: Oswald-Bold, sans-serif;
+$OSM500: Oswald-Medium, sans-serif;
+$OSR400: Oswald-Regular, sans-serif;
+
+
+// font colors
+$orangeColor: #EF792E;
+$darkGrayColor: #474747;
+$lightGreenColor: #93C01F;
+
+
+// --------------MIXINS-------------
+// product-card
+@mixin productName {
+    font-family: $OSB700;
+    font-size: 2rem;
+    color: $darkGrayColor;
+}
+
+@mixin productPrice {
+    font-family: $OSM500;
+    font-size: 1.5rem;
+    color: $darkGrayColor;
+}
+
+@mixin productWeight {
+    font-family: $OSR400;
+    font-size: 1.5rem;
+    color: $darkGrayColor;
+}
