@@ -1,0 +1,17 @@
+@import '../../App';
+
+.navWrapper {
+
+    nav {
+        padding: 1rem;
+        width: 20rem;
+        display: flex;
+        justify-content: space-between;
+
+        a {
+            text-decoration: none;
+            color: $lightGreenColor;
+            font-size: 1.2rem;
+        }
+    }
+}

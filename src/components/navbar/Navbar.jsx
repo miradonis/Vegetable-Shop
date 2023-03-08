@@ -1,10 +1,11 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
+import './Navbar.scss';
+import { Link } from 'react-router-dom';;
 
 
 function Navbar() {
     return (
-        <section className='navSection'>
+        <section className='navWrapper'>
             <nav>
                 <Link to='vegetable'>Gemüse</Link>
                 <Link to='fruits'>Früchte</Link>

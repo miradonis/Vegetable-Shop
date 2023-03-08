@@ -39,14 +39,14 @@ $lightGreenColor: #93C01F;
     color: $darkGrayColor;
 }
 
-@mixin productPrice {
+@mixin productPriceWeight {
     font-family: $OSM500;
-    font-size: 1.5rem;
+    font-size: 1rem;
     color: $darkGrayColor;
 }
 
-@mixin productWeight {
+@mixin productMwst {
     font-family: $OSR400;
-    font-size: 1.5rem;
+    font-size: .8rem;
     color: $darkGrayColor;
 }
